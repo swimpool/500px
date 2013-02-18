@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   widget = $('#chameleon-widget')
 
-  chameleon.widget({  
+  chameleon.widget({
     onLoad: function() {
       loadPhotoFeed()
     },
@@ -20,9 +20,9 @@ $(document).ready(function() {
       updateSizes()
     },
     onConfigure: function() {
-      chameleon.promptHTML({ 
-        url:"settings.html", 
-        result: postConfigure 
+      chameleon.promptHTML({
+        url:"settings.html",
+        result: postConfigure
       })
     },
     onRefresh: function() {
@@ -46,7 +46,7 @@ function photoClicked() {
 function loadPhotos(type, callback) {
   photos = []
   var options = {
-    feature: type, 
+    feature: type,
     page: 1
   }
   if (gecko.getInstanceData('nudity')) {
@@ -92,7 +92,7 @@ function updateSizes() {
   }
 
   $('.photo-div').hide()
-  
+
   $('.photo-div img').css('width', image_width + 'px')
   $('.photo-div img').css('height', image_width + 'px')
   $('.photo-div p').css('width', (image_width - 8) + 'px')

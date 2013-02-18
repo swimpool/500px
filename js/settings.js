@@ -11,15 +11,15 @@ $(document).ready(function() {
   })
 
   if (gecko.getInstanceData('feed-type') !== null) {
-    $("#feed_select").chameleonSelectList({ 
-      selectedValue: gecko.getInstanceData('feed-type') 
+    $("#feed_select").chameleonSelectList({
+      selectedValue: gecko.getInstanceData('feed-type')
     })
   }
 
   if (gecko.getInstanceData('nudity') == true) {
     $("#nude_toggle").attr('checked', 'checked')
   }
-  
+
   $("#save-button").click(function (e) {
     var feed_type = $("#feed_select").chameleonSelectList({getSelectedItem:true}).value
     var nudity = ($("#nude_toggle").attr('checked') == 'checked')
