@@ -31,16 +31,16 @@ $(document).ready(function() {
       }
     },
     notChameleon: function () {
-      window.location = '/chameleon/about/#500px'
+      loadPhotoFeed()
     }
   })
 
   widget.on('click', '.photo-div', photoClicked)
 })
 
-function photoClicked() {
-  var div = $(e.currentTarget)
-  gecko.openUrl('http://500px.com/photo/' + div.attr('data-id'))
+function photoClicked(event) {
+  var $photo = $(event.currentTarget)
+  gecko.openUrl('http://500px.com/photo/' + $photo.data('id'))
 }
 
 function loadPhotos(type, callback) {
