@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest xmlns="http://chameleonlauncher.com/widgets">
+  <widget>
+    <guid>com.matthewtole.chameleon.500px</guid> 
+    <baseURL>http://matthewtole.com/chameleon/500px/</baseURL> 
+    <name>500px</name> 
+    <description>Widget for displaying photos from 500px</description> 
+    <version>0.1.2</version> 
+  </widget>  
+  <style>
+    <icons>
+      <large>images/icon.png</large> 
+    </icons>
+    <color>#000000</color> 
+    <showTitleBar>true</showTitleBar> 
+    <showBackgroundShadow>true</showBackgroundShadow> 
+    <allowRefresh>true</allowRefresh> 
+    <allowConfigure>true</allowConfigure> 
+  </style>
+  <author>
+    <name>Matthew Tole</name>
+    <website>http://matthewtole.com/</website>
+    <email>mail@matthewtole.com</email>
+    <support type="email">chameleon@matthewtole.com</support>
+    <support type="URL">http://matthewtole.com/chameleon/</support>
+  </author>
+  <resources>
+    <resource name='index.html' />
+    <resource name='settings.html' />
+    <resource name='js/underscore-min.js' />
+    <resource name='js/gecko/gecko.js' />
+    <resource name='js/500px.js' />
+    <resource name='js/ICanHaz.js' />
+    <resource name='js/shared.js' />
+    <resource name='js/index.main.js' />
+    <resource name='js/settings.main.js' />
+    <resource name='css/widget.css' />
+    <resource name='css/settings.css' />
+    <resource name='images/icon.png' />
+  </resources>
+</manifest>
