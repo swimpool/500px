@@ -4,9 +4,7 @@
 
 Make your Android tablet or phone more beautiful by filling it with some of the best photos on the Internet, courtesy of 500px
 
-**Current Version:** 0.1.2
-
-### [More Details][3] | [Install in Chameleon][2]
+**Current Version:** Not Yet Released
 
 ## License
 
