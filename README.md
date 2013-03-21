@@ -6,6 +6,8 @@ Make your Android tablet or phone more beautiful by filling it with some of the 
 
 **Current Version:** Not Yet Released
 
+### [More Details][3]
+
 ## License
 
 Copyright (c) 2013 Matthew Tole &lt;info@matthewtole.com&gt;
